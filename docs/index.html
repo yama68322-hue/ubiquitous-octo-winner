@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Ubiquitous Octo Winner — Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50 text-gray-800 antialiased">
+    <header class="bg-white shadow">
+      <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+        <a href="/" class="text-xl font-semibold">Ubiquitous Octo Winner</a>
+        <nav class="space-x-4 text-sm">
+          <a class="hover:underline" href="/about.html">About</a>
+          <a class="hover:underline" href="/portfolio.html">Portfolio</a>
+          <a class="hover:underline" href="/contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 py-12">
+      <section class="text-center py-12">
+        <h1 class="text-4xl md:text-5xl font-extrabold">We build beautiful digital experiences</h1>
+        <p class="mt-4 text-gray-600 max-w-2xl mx-auto">Static site template with Tailwind CSS — ready for GitHub Pages. Customize content and images in the docs/ folder.</p>
+        <div class="mt-8 flex justify-center gap-4">
+          <a href="/portfolio.html" class="px-6 py-3 bg-blue-600 text-white rounded-md">View portfolio</a>
+          <a href="/contact.html" class="px-6 py-3 border border-blue-600 text-blue-600 rounded-md">Contact us</a>
+        </div>
+      </section>
+
+      <section class="grid md:grid-cols-3 gap-6 mt-12">
+        <div class="p-6 bg-white rounded-lg shadow-sm">
+          <h3 class="font-semibold">Design</h3>
+          <p class="mt-2 text-sm text-gray-600">Clean, responsive interfaces focused on conversion and usability.</p>
+        </div>
+        <div class="p-6 bg-white rounded-lg shadow-sm">
+          <h3 class="font-semibold">Development</h3>
+          <p class="mt-2 text-sm text-gray-600">Modern HTML, CSS and light JavaScript. Fast, accessible and maintainable.</p>
+        </div>
+        <div class="p-6 bg-white rounded-lg shadow-sm">
+          <h3 class="font-semibold">Consulting</h3>
+          <p class="mt-2 text-sm text-gray-600">Product strategy, prototyping and handoff to engineering teams.</p>
+        </div>
+      </section>
+
+      <section class="mt-12">
+        <h2 class="text-2xl font-semibold">Selected work</h2>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+          <article class="bg-white rounded-lg overflow-hidden shadow-sm">
+            <img alt="Project 1" src="https://via.placeholder.com/800x450?text=Project+1" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h3 class="font-semibold">Project 1</h3>
+              <p class="mt-2 text-sm text-gray-600">Short description of the project and the value provided.</p>
+            </div>
+          </article>
+          <article class="bg-white rounded-lg overflow-hidden shadow-sm">
+            <img alt="Project 2" src="https://via.placeholder.com/800x450?text=Project+2" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h3 class="font-semibold">Project 2</h3>
+              <p class="mt-2 text-sm text-gray-600">Short description of the project and the value provided.</p>
+            </div>
+          </article>
+          <article class="bg-white rounded-lg overflow-hidden shadow-sm">
+            <img alt="Project 3" src="https://via.placeholder.com/800x450?text=Project+3" class="w-full h-48 object-cover">
+            <div class="p-4">
+              <h3 class="font-semibold">Project 3</h3>
+              <p class="mt-2 text-sm text-gray-600">Short description of the project and the value provided.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-white border-t mt-12">
+      <div class="max-w-6xl mx-auto px-6 py-6 text-sm text-gray-600 flex justify-between items-center">
+        <div>© <span id="year"></span> Ubiquitous Octo Winner</div>
+        <div><a href="/">Home</a> · <a href="/about.html">About</a> · <a href="/contact.html">Contact</a></div>
+      </div>
+    </footer>
+
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </body>
+</html>
